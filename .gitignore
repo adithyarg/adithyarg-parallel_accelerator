@@ -1,0 +1,27 @@
+# Vivado project files
+vivado_proj/
+*.jou
+*.log
+*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Build artefacts
+build/*.bit
+build/*.config
+build/*.json
+build/*.dcp
+build/*.rpt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Training data and model weights (large files)
+training/data/
+training/weights/
